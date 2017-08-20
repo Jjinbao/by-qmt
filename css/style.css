@@ -3,9 +3,36 @@ html,body{
     margin: 0;
 }
 #header{
-    height: 100px;
+    height: 80px;
     width: 100%;
-    background-color: gray;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    position: relative;
+}
+.header-logo{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 49px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 20px;
+    color: #009744;
+    background: url("../images/logo.png") left top no-repeat;
+}
+.header-tabs{
+    position: absolute;
+    padding: 0;
+    top: 26px;
+    left: 359px;
+}
+li{
+    font-size: 18px;
+    list-style: none;
+    float: left;
+    color: #333;
+    line-height: 25px;
+    margin-left: 44px;
 }
 #body{
     width: 100%;
