@@ -1,6 +1,14 @@
+@font-face {
+    font-family: PingFang-Medium;
+    src:url('../fonts/PingFang-Medium.ttf');
+}
 html,body{
     padding: 0;
     margin: 0;
+    font-family: PingFang-Medium;
+}
+.container{
+    width: 1226px;
 }
 #header{
     height: 80px;
@@ -10,32 +18,72 @@ html,body{
     border: 1px solid #dbdbdb;
     position: relative;
 }
+.header-container{
+    padding: 0;
+    height: 100%;
+}
+
 .header-logo{
-    margin-left: 100px;
+    float: left;
     margin-top: 10px;
     padding-left: 49px;
     height: 58px;
-    line-height: 58px;
+    line-height: 56px;
     font-size: 20px;
     color: #009744;
     background: url("../images/logo.png") left top no-repeat;
+    cursor: pointer;
+}
+.header-logo a{
+    text-decoration: none;
+    color: #009744;
+}
+.header-logo a:hover{
+    text-decoration: none;
+    color: #009744;
 }
 .header-tabs{
-    position: absolute;
-    padding: 0;
-    top: 26px;
-    left: 359px;
+    float: left;
+    height: 100%;
+    margin-left: 50px;
 }
-li{
+.tabs{
     font-size: 18px;
     list-style: none;
     float: left;
     color: #333;
-    line-height: 25px;
-    margin-left: 44px;
+    height: 78px;
+    line-height: 78px;
+    margin-left: 35px;
+    box-sizing: border-box;
+}
+.tabs a{
+    color: #333;
+}
+.tabs a:hover{
+    text-decoration: none;
+    color: #198514;
+}
+.tabs a:focus{
+    text-decoration: none;
+}
+.user-center{
+    float: right;
+    margin-top: 27px;
+    color: #333;
+    font-size: 18px;
+    font-family: PingFang-Medium;
 }
 #body{
     width: 100%;
+    clear: both;
+    min-width: 1226px;
+}
+.body-container{
+    padding: 0;
+    background-color: gray;
+    margin: 0 auto;
+    position: relative;
     height: 200px;
-    background-color: gainsboro;
+    background-color: gray;
 }

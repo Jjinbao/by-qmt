@@ -1,0 +1,38 @@
+#myCarousel{
+    min-height: 100px;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0;
+    background-color: gray;
+    border: none;
+}
+.carousel-indicators .active{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0;
+    background-color: green;
+}
+.my-carousel-left{
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 47px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.my-carousel-right{
+    position: absolute;
+    height: auto;
+    top: 50%;
+    right: 47px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
