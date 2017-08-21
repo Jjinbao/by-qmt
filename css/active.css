@@ -5,14 +5,16 @@
     width: 15px;
     height: 15px;
     margin: 0 5px 0;
-    background-color: gray;
+    background-color: rgba(0,0,0,0.23);
+    opacity: 0.23;
     border: none;
 }
 .carousel-indicators .active{
     width: 15px;
     height: 15px;
     margin: 0 5px 0;
-    background-color: green;
+    background-color: #22891d;
+    opacity: 1;
 }
 .my-carousel-left{
     position: absolute;
@@ -24,6 +26,8 @@
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+    width:85px;
+    height: 85px;
 }
 .my-carousel-right{
     position: absolute;
@@ -35,4 +39,56 @@
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+    width: 85px;
+    height: 85px;
+}
+.active-title{
+    font-size: 18px;
+    line-height: 1;
+    padding-top: 47px;
+    padding-bottom: 37px;
+}
+.active-items{
+    width: 100%;
+    position: relative;
+    padding-left: 838px;
+    padding-right: 33px;
+    padding-top: 62px;
+    padding-bottom: 29px;
+    color: #333;
+    height: 440px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 60px 0 rgba(0,0,0,0.08);
+}
+.active-items img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:785px;
+    height: 440px;
+}
+.active-items .active-name{
+    font-size: 30px;
+    color: #333333;
+}
+.active-items .push-time{
+    font-size: 22px;
+    margin-top: 16px;
+    letter-spacing: 0;
+}
+.active-items .active-subheader{
+    font-size: 22px;
+    margin-top: 39px;
+}
+
+.active-items .join-btn{
+    width: 264px;
+    height: 59px;
+    background-color: #22891d;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 58px;
+    margin: 52px auto 0;
+    cursor: pointer;
 }

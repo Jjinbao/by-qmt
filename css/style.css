@@ -45,7 +45,6 @@ html,body{
 .header-tabs{
     float: left;
     height: 100%;
-    margin-left: 50px;
 }
 .tabs{
     font-size: 18px;
@@ -81,9 +80,6 @@ html,body{
 }
 .body-container{
     padding: 0;
-    background-color: gray;
     margin: 0 auto;
     position: relative;
-    height: 200px;
-    background-color: gray;
 }
