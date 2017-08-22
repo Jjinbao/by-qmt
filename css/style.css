@@ -5,7 +5,7 @@
 html,body{
     padding: 0;
     margin: 0;
-    font-family: PingFang-Medium;
+    font-family: PingFang-Medium,Microsoft YaHei,Arial;
 }
 .container{
     width: 1226px;
@@ -71,7 +71,7 @@ html,body{
     margin-top: 27px;
     color: #333;
     font-size: 18px;
-    font-family: PingFang-Medium;
+
 }
 #body{
     width: 100%;
@@ -82,4 +82,67 @@ html,body{
     padding: 0;
     margin: 0 auto;
     position: relative;
+}
+
+#footer{
+    width: 100%;
+    height: 308px;
+    background-color: #6A6F74;
+    min-width: 1226px;
+}
+.footer-container {
+    padding: 0;
+    height: 100%;
+    width: 1226px;
+    position: relative;
+}
+.other-links{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    margin-right: 84px;
+    margin-top: 70px;
+}
+.other-links .footer-title{
+    font-size: 22px;
+    margin-bottom: 24px;
+    color: #ffffff;
+    letter-spacing: 0;
+}
+.other-links .footer-item{
+    font-family: PingFang-Medium;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 19px;
+    letter-spacing: 0;
+}
+.other-links .footer-item a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.other-links .footer-item a:hover{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+.other-links .footer-item a:focus{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.app-download{
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 54px;
+    margin-left: 56px;
+    color: #ffffff;
+}
+
+.app-download img{
+    width: 144px;
+    height: 144px;
+    margin-bottom: 21px;
 }
