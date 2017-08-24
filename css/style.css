@@ -47,13 +47,13 @@ html,body{
     height: 100%;
 }
 .tabs{
-    font-size: 18px;
+    font-size: 14px;
     list-style: none;
     float: left;
     color: #333;
     height: 78px;
     line-height: 78px;
-    margin-left: 35px;
+    margin-left: 52px;
     box-sizing: border-box;
 }
 .tabs a{
@@ -70,7 +70,7 @@ html,body{
     float: right;
     margin-top: 27px;
     color: #333;
-    font-size: 18px;
+    font-size: 14px;
 
 }
 #body{
