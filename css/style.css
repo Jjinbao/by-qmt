@@ -6,6 +6,7 @@ html,body{
     padding: 0;
     margin: 0;
     font-family: PingFang-Medium,Microsoft YaHei,Arial;
+    background-color: ghostwhite;
 }
 .container{
     width: 1226px;
@@ -86,7 +87,7 @@ html,body{
 
 #footer{
     width: 100%;
-    height: 308px;
+    height: 245px;
     background-color: #6A6F74;
     min-width: 1226px;
 }
@@ -100,34 +101,33 @@ html,body{
     display: inline-block;
     vertical-align: top;
     font-size: 0;
-    margin-right: 84px;
-    margin-top: 70px;
+    margin-right: 99px;
+    margin-top: 75px;
 }
 .other-links .footer-title{
-    font-size: 22px;
-    margin-bottom: 24px;
+    font-size: 18px;
+    margin-bottom: 29px;
     color: #ffffff;
     letter-spacing: 0;
 }
 .other-links .footer-item{
     font-family: PingFang-Medium;
-    font-size: 18px;
     color: #ffffff;
-    margin-bottom: 19px;
+    margin-bottom: 21px;
     letter-spacing: 0;
 }
 .other-links .footer-item a{
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     color: #fff;
 }
 .other-links .footer-item a:hover{
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     color: #fff;
 }
 .other-links .footer-item a:focus{
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
     color: #fff;
 }
@@ -141,8 +141,18 @@ html,body{
     color: #ffffff;
 }
 
+
 .app-download img{
     width: 144px;
     height: 144px;
     margin-bottom: 21px;
+}
+
+.copy-right{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    height: 63px;
+    background-color: #6A6F74;
 }
