@@ -79,7 +79,7 @@
     height: 323px;
 }
 .active-items .active-name{
-    font-size: 24px;
+    font-size: 22px;
     color: #333333;
 }
 .active-items .push-time{
@@ -93,13 +93,13 @@
 }
 
 .active-items .join-btn{
-    width: 216px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     background-color: #22891d;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     margin: 52px auto 0;
     cursor: pointer;
 }
