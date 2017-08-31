@@ -3,7 +3,8 @@
 .success-panel{
     position: relative;
     margin-top: 36px;
-    padding: 21px 46px;
+    margin-bottom: 104px;
+    padding: 21px 46px 200px;
     color: #333333;
 }
 
@@ -17,4 +18,100 @@
     margin-top: 19px;
     height:1px;
     border-bottom:2px dashed #979797
+}
+
+.success-panel .confirm-body{
+    height: 238px;
+    margin-top: 19px;
+    border-bottom: 1px dashed #979797;
+    border-top: 1px dashed #979797;
+    position: relative;
+    padding: 98px 10px 90px 384px;
+
+}
+
+.success-panel .confirm-body .success-tip{
+    line-height: 1;
+    color: #333333;
+    font-size: 20px;
+}
+
+.success-panel .confirm-body .contact-service{
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 8px;
+
+}
+.success-panel .confirm-address{
+    padding-top: 42px;
+    font-size: 0;
+    position: relative;
+}
+
+.success-panel .confirm-address .first-line{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.success-panel .confirm-address .second-line{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 70px;
+    line-height: 1;
+}
+
+.success-panel .confirm-address .recive-address{
+    margin-top: 18px;
+    font-size: 14px;
+}
+.success-panel .confirm-address .pro-price{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+}
+
+.success-panel .confirm-address .pro-price span{
+    font-size: 32px;
+    color: #f12740;
+    color: #F12740;
+    letter-spacing: 0;
+}
+
+.success-panel .confirm-address{
+    border-top: 1px dashed #979797;
+    margin-top: 23px;
+}
+
+.success-panel .confirm-product{
+    border-top: 1px dashed #979797;
+    margin-top: 23px;
+    padding-top: 6px;
+    padding-bottom: 17px;
+}
+
+.success-panel .confirm-product table{
+    width: 100%;
+    text-align: center;
+}
+
+.success-panel .confirm-product .pro-detail-header{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.success-panel .confirm-product .pro-detail{
+    height: 54px;
+    line-height: 54px;
+    font-size: 14px;
+}
+
+.success-panel .price-total{
+    height: 49px;
+    line-height: 49px;
+    font-size: 18px;
+    padding-left: 50px;
+    background-color: #22891d;
 }
