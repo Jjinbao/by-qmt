@@ -59,6 +59,7 @@
 .active-title{
     font-size: 14px;
     line-height: 1;
+    padding-left: 55px;
     padding-top: 25px;
     padding-bottom: 21px;
 }
@@ -93,7 +94,7 @@
 }
 
 .active-items .join-btn{
-    width: 200px;
+    width: 169px;
     height: 40px;
     background-color: #22891d;
     color: #fff;
@@ -102,4 +103,97 @@
     line-height: 40px;
     margin: 52px auto 0;
     cursor: pointer;
+}
+
+.active-items .join-btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.active-items .join-btn a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.active-detail-container{
+    width: 1113px;
+    margin: 0 auto 104px;
+    background-color: #ffffff;
+    padding: 59px 84px 66px;
+    color: #333333;
+}
+
+.active-detail-container .active-detail-title{
+    line-height: 1;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+.active-detail-container .active-detail-time{
+    margin-top: 14px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+}
+
+.active-detail-container .detail-img{
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.active-detail-container .detail-img img{
+    vertical-align: top;
+    width: 100%;
+    display: block;
+}
+ .active-detail-container .detail-img .img-name{
+     margin-top: 5px;
+     line-height: 37px;
+     font-size: 14px;
+ }
+
+ .active-detail-container .active-desc{
+     font-size: 14px;
+     letter-spacing: 0;
+     line-height: 37px;
+     text-indent:28px
+ }
+.active-detail-container .live-contact{
+    margin-top: 379px;
+    position: relative;
+}
+ .active-detail-container .live-contact .line{
+     height:1px;border-bottom:1px dashed #979797
+ }
+
+.active-detail-container .live-contact .line-title{
+    position: absolute;
+    top: -24px;
+    width: 264px;
+    height: 48px;
+    line-height: 48px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    left: 340px;
+ }
+
+.live-contact .detail-join-btn{
+    width: 185px;
+    height: 48px;
+    background-color: #22891d;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+    margin: 59px auto 0;
+    cursor: pointer;
+}
+
+.live-contact input{
+    height: 45px;
+    font-size: 16px;
+    color: #333333;
 }

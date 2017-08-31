@@ -1,12 +1,8 @@
-@font-face {
-    font-family: PingFang-Medium;
-    src:url('../fonts/PingFang-Medium.ttf');
-}
 html,body{
     padding: 0;
     margin: 0;
-    font-family: PingFang-Medium,Microsoft YaHei,Arial;
-    background-color: ghostwhite;
+    font-family: PingFang SC,Microsoft YaHei,Arial;
+    background-color: #f8f9f9;
 }
 .container{
     width: 1226px;
@@ -72,7 +68,6 @@ html,body{
     margin-top: 27px;
     color: #333;
     font-size: 14px;
-
 }
 #body{
     width: 100%;
