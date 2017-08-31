@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.success-panel{
+    position: relative;
+    margin-top: 36px;
+    padding: 21px 46px;
+    color: #333333;
+}
+
+.success-panel .confirm-title{
+    text-align: left;
+    line-height: 1;
+    font-size: 20px;
+}
+
+.success-panel .line{
+    margin-top: 19px;
+    height:1px;
+    border-bottom:2px dashed #979797
+}

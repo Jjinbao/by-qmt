@@ -79,6 +79,11 @@ html,body{
     margin: 0 auto;
     position: relative;
 }
+/*内容区内部的公共面板*/
+.inner-panel{
+    width: 1113px;
+    background-color: #ffffff;
+}
 
 #footer{
     width: 100%;
