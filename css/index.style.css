@@ -1,4 +1,170 @@
+@charset "utf-8";
 .one-tag{
     color: red;
     margin-left: 100px;
+}
+
+.platform-character{
+    width: 1262px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    color: #333333;
+}
+
+.platform-character .plat-panel{
+    position: absolute;
+    top: -91px;
+    left: 0;
+    width: 100%;
+    width: 1262px;
+    height: 362px;
+    background-color: #ffffff;
+    -moz-box-shadow:0 2px 40px 0 rgba(0,0,0,0.04);
+    -webkit-box-shadow:0 2px 40px 0 rgba(0,0,0,0.04);
+    box-shadow: 0 2px 40px 0 rgba(0,0,0,0.04);
+    text-align: center;
+}
+
+.platform-character .plat-panel img{
+    width: 132px;
+    height: 132px;
+    vertical-align: top;
+}
+
+.platform-character .plat-panel .a-special-item{
+    padding-top: 70px;
+}
+
+.plat-panel .a-special-item .s-title{
+    margin-top: 39px;
+    font-size: 22px;
+    line-height: 1;
+}
+.plat-panel .a-special-item .s-sub-title{
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 14px;
+}
+
+.index-second-panel{
+    width: 100%;
+    margin-top: 370px;
+    background-color: #ffffff;
+    padding-top: 81px;
+    padding-bottom: 64px;
+}
+
+.index-second-panel .panel-title{
+    font-size: 36px;
+    text-align: center;
+    line-height: 1;
+}
+
+.index-second-panel .pro-panel{
+    width: 1226px;
+    margin: 68px auto 0;
+}
+
+.index-second-panel .pro-panel .index-pro{
+    position: relative;
+    width: 378px;
+    height: 576px;
+    margin: 0 auto 123px;
+    -moz-box-shadow:0 2px 60px 0 rgba(0,0,0,0.08);
+    -webkit-box-shadow:0 2px 60px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 60px 0 rgba(0,0,0,0.08);
+}
+
+.index-pro img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.index-pro .index-pro-name{
+    font-size: 20px;
+    padding-left: 34px;
+    line-height: 1;
+    margin-top: 25px;
+}
+.index-pro .index-pro-zq{
+    margin-top: 6px;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    padding-left: 34px;
+}
+.index-pro .index-pro-price{
+    margin-top: 18px;
+    font-size: 16px;
+    color: #333333;
+    line-height: 45px;
+    padding-left: 34px;
+}
+.index-pro .unit-price{
+    font-size: 32px;
+    color: #F12740;
+    letter-spacing: 0;
+}
+
+.index-pro .surplus{
+    color: #103B00;
+}
+
+.index-pro .index-pro-line{
+    border-bottom: 1px solid #EDEDED;
+    margin: 14px 34px 25px;
+}
+
+.index-pro .invest-attr{
+    width: 100%;
+    padding: 0 34px;
+}
+
+.index-pro .invest-attr table{
+    width: 100%;
+}
+.index-pro .invest-attr table .table-title{
+    font-size: 16px;
+    text-align: center;
+    color: #999999;
+}
+.index-pro .invest-attr table .table-body{
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    padding-top: 5px;
+    line-height: 42px;
+}
+
+.index-pro .invest-attr table img{
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+.index-pro .index-pro-buy{
+    width: 207px;
+    height: 51px;
+    line-height: 51px;
+    text-align: center;
+    background-color: #22891D;
+    -moz-box-shadow: 0 2px 80px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 2px 80px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 2px 80px 0 rgba(0,0,0,0.15);
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 85px;
+    margin-top: 40px;
+}
+
+.index-second-panel .see-more{
+    text-align: center;
+}
+
+.index-second-panel .see-more a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #333333;
+    line-height: 1;
 }
