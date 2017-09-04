@@ -156,3 +156,122 @@ html,body{
     height: 63px;
     background-color: #6A6F74;
 }
+
+/*轮播图样式*/
+#myCarousel{
+    min-height: 100px;
+}
+.carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    margin: 0 4px 0;
+    background-color: rgba(0,0,0,0.23);
+    opacity: 0.23;
+    border: none;
+}
+.carousel-indicators .active{
+    width: 8px;
+    height: 8px;
+    margin: 0 4px 0;
+    background-color: #22891d;
+    opacity: 1;
+}
+.carousel-indicators{
+    border-bottom: 0;
+}
+.my-carousel-left{
+    position: absolute;
+    top: 50%;
+    left: 47px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width:50px;
+    height: 50px;
+}
+
+.my-carousel-left img{
+    width: 100%;
+    height: 100%;
+}
+.my-carousel-right{
+    position: absolute;
+    top: 50%;
+    right: 47px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+}
+
+.my-carousel-right img{
+    width: 100%;
+    height: 100%;
+}
+
+/*分页效果*/
+#Pagination{
+    text-align: center;
+    height: 35px;
+    margin-top: 19px;
+    padding-left: 260px;
+}
+#Pagination a{
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    margin: 0 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #E4E4E4;
+}
+
+#Pagination .active{
+    float: left;
+    margin: 0 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #22891D;
+    text-align: center;
+    border: 1px solid gainsboro;
+    color: #ffffff;
+}
+
+#Pagination .jump-btn{
+    width: 70px;
+    height: 35px;
+    float: left;
+}
+
+#Pagination .jump-ipt{
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+#Pagination .to-jump1{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 40px;
+    margin-right: 9px;
+
+}
+
+#Pagination .to-jump2{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 15px;
+    margin-right: 13px;
+
+}
