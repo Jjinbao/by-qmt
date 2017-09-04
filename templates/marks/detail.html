@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>确认订单</title>
+    <title>积分产品详情</title>
     <link rel="stylesheet" href="../../lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/marks.css">
@@ -18,35 +18,71 @@
             <div class="tabs"><a href="../../active.html">活动专区</a></div>
             <div class="tabs" style="border-bottom: 4px solid #198514"><a style="color: #198514" href="javascript:void(0)">积分商城</a></div>
             <div class="tabs"><a href="../../notice.html">公告</a></div>
+            <!--<div class="tabs"><a href="center.html">个人中心</a></div>-->
         </div>
         <div class="user-center">
-            刘德华的牧场
+            墨年的牧场
         </div>
     </div>
 </div>
-<div id="body">
-    <div class="container body-container">
-        <div class="inner-panel success-panel">
-            <div class="confirm-title">确认订单</div>
 
-            <div class="confirm-body">
-                <div class="success-tip">
-                    订单已确认
-                </div>
-                <div class="contact-service">您将在2-14个工作日内收到礼品，若有问题请联系客服</div>
+<div id="body">
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../../images/active-banner.jpg" style="width: 100%" alt="First slide">
+                <!--<div class="carousel-caption>标题 1</div>-->
             </div>
-            <div class="confirm-address">
-                <div class="first-line">产品属性: 红色</div>
-                <div class="second-line"> 数量: 1</div>
-                <div class="second-line"> 运费: 平台包邮</div>
-                <div class="recive-address">收货地址: 王同学 18810646632 北京 海淀区西土城路十号北京邮电大学</div>
-                <div class="pro-price">
-                    本次支付:<span>8000分</span>+<span>￥0</span>元
-                </div>
+            <div class="item">
+                <img src="../../images/active-banner.jpg" style="width: 100%" alt="Second slide">
+                <!--<div class="carousel-caption">标题 2</div>-->
+            </div>
+            <div class="item">
+                <img src="../../images/active-banner.jpg" style="width: 100%" alt="Third slide">
+                <!--<div class="carousel-caption">标题 3</div>-->
             </div>
         </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="my-carousel-left" href="#myCarousel"
+           data-slide="prev">
+            <img src="../../images/Group%209.png" alt="">
+        </a>
+        <a class="my-carousel-right" href="#myCarousel"
+           data-slide="next">
+            <img src="../../images/Group%202.png" alt="">
+        </a>
     </div>
+
+    <div class="container body-container">
+        <div class="marks-title">积分商城>产品详情</div>
+
+        <div class="marks-detail-container">
+            <div class="marks-detial">
+                <div class="detail-title">宁夏安格斯牛（3个月）育牛投资</div>
+                <div class="detail-mark-mail">
+                    <div class="marks">积分:</div>
+                    <div class="price">8000</div>
+                    <div class="how-to-get">如何获取积分?</div><br>
+                    <div class="mail">运费</div>
+                    <div class="mail" style="margin-left: 17px;color: #22891D">平台包邮</div>
+                </div>
+                <div>分类</div>
+                <div class="">数量</div>
+                <div class="detial-join-btn">立即参与</div>
+            </div>
+        </div>
+
+    </div>
+
 </div>
+
 <div id="footer">
     <div class="container footer-container">
         <div class="other-links">
