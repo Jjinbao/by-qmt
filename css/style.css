@@ -20,6 +20,40 @@ html,body{
     height: 100%;
 }
 
+.search-input{
+    float: right;
+    margin-right: 53px;
+    margin-top: 22px;
+    position: relative;
+    height: 37px;
+    width: 216px;
+}
+
+.search-input input{
+    width: 216px;
+    height: 37px;
+    border-radius: 18px;
+    background: #f4f4f4;
+    border: 1px solid #DBDBDB;
+}
+
+.search-input .icon-search{
+    position: absolute;
+    left: 19px;
+    top:7px;
+    z-index:6;
+    background: url('../images/search-icon.png') left center no-repeat;
+    /*background-position: 0px 0px; !*图片显示的位置*!*/
+    width: 23px; /*设置图片显示的宽*/
+    height: 23px; /*图片显示的高*/
+
+}
+
+.search-input input[type=text]:focus{
+    outline: none;
+    border-radius: 20px;
+}
+
 .header-logo{
     float: left;
     margin-top: 10px;
@@ -214,12 +248,55 @@ html,body{
     height: 100%;
 }
 
+/*右侧小工具栏*/
+.attach-tools{
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+
+.attach-tools .to-top{
+    width: 76px;
+    height: 76px;
+    background-color: green;
+    text-align: center;
+    display: none;
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.attach-tools .phone-ask{
+    width: 76px;
+    height: 76px;
+    background-color: #22891D;
+    text-align: center;
+    margin-top: 17px;
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.attach-tools .qq-ask{
+    width: 76px;
+    height: 76px;
+    background-color: #05719F;
+    text-align: center;
+    margin-top: 17px;
+    padding-top: 16px;
+    cursor: pointer;
+}
+
+.attach-tools img{
+    width: 44px;
+    height: 44px;
+    vertical-align: top;
+}
+
 /*分页效果*/
 #Pagination{
     text-align: center;
     height: 35px;
     margin-top: 19px;
-    padding-left: 260px;
+    padding-left: 240px;
 }
 #Pagination a{
     font-size: 14px;
@@ -242,7 +319,7 @@ html,body{
     line-height: 35px;
     background: #22891D;
     text-align: center;
-    border: 1px solid gainsboro;
+    border: 1px solid #E4E4E4;
     color: #ffffff;
 }
 
@@ -256,6 +333,8 @@ html,body{
     width: 35px;
     height: 35px;
     float: left;
+    border: 1px solid #E4E4E4;
+    text-align: center;
 }
 
 #Pagination .to-jump1{
@@ -274,4 +353,11 @@ html,body{
     margin-left: 15px;
     margin-right: 13px;
 
+}
+
+#Pagination .page-total{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 17px;
 }

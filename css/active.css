@@ -1,11 +1,13 @@
 .inner-container{
     width: 1114px;
-    margin: 0 auto;
+    margin: 0 auto 102px;
+    background-color: white;
+    padding-bottom: 52px;
 }
 
 .panel-list{
     width: 1114px;
-    padding: 35px 55px;
+    padding: 35px 55px 0;
     background-color: #ffffff;
 }
 
@@ -19,7 +21,7 @@
 .active-items{
     width: 100%;
     position: relative;
-    padding: 39px 58px 58px 630px;
+    padding: 39px 0px 58px 630px;
     color: #333;
     height: 350px;
     margin-bottom: 24px;
