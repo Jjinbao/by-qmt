@@ -2,7 +2,7 @@ $('.header-logo').on('click',function(e){
     window.location.href='./index.html'
 })
 var clickEnterBtn=function(e){
-    if(event.keyCode == '13'){
+    if(e.keyCode == '13'){
         alert('ok');
     }
 }
