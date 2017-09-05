@@ -13,6 +13,7 @@ html,body{
     height: 80px;
     width: 100%;
     background-color: #ffffff;
+    border-bottom: 1px solid #DBDBDB;
 }
 .header-container{
     padding: 0;

@@ -5,33 +5,56 @@
     <title>个人中心</title>
     <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/wan-spinner.css">
+    <style rel="stylesheet">
+        body {
+            background-color: #ECF0F1;
+            font-family: 'Microsoft yahei';
+        }
+        .container {
+            margin: 150px auto;
+            text-align: center;
+            max-width: 640px;
+        }
+        h1 {
+            margin-bottom: 50px;
+        }
+
+    </style>
 </head>
 <body>
-<div id="header">
-    <div class="header-container">
-        <div class="header-logo">伊牧云</div>
-        <div class="header-tabs">
-            <div class="tabs"><a href="./index.html">首页</a></div>
-            <div class="tabs"><a href="./invest.html">投资认领</a></div>
-            <div class="tabs"><a href="./transfer.html">转让抢购</a></div>
-            <div class="tabs"><a href="./active.html">活动专区</a></div>
-            <div class="tabs"><a href="./marks.html">积分商城</a></div>
-            <div class="tabs"><a href="./about.html">关于平台</a></div>
-            <div class="tabs" style="border-bottom: 4px solid #198514"><a style="color: #198514" href="javascript:void(0)">个人中心</a></div>
-        </div>
-        <div class="user-center">
-            墨年的牧场
-            <img src="./images/mine-down.png" style="height: 14px;">
-        </div>
-        <div class="search-input">
-            <i class="icon-search"></i>
-            <input id="search_name" style="padding-left: 50px;" type="text"/>
-        </div>
-    </div>
-
-</div>
+<div class="wan-spinner wan-spinner-1"> <a href="javascript:void(0)" class="minus">-</a>
+    <input type="text" value="1">
+    <a href="javascript:void(0)" class="plus">+</a> </div>
 <script src="./lib/jquery-3.0.0.min.js"></script>
 <script src="./lib/js/bootstrap.min.js"></script>
+<script src="./lib/wan-spinner.js"></script>
+<script>
+    $(document).ready(function() {
+        var options = {
+            maxValue: 10,
+            minValue: 1,
+            step: 1,
+            inputWidth: 100,
+            start: -2,
+            plusClick: function(val) {
+                console.log(val);
+            },
+            minusClick: function(val) {
+                console.log(val);
+            },
+            exceptionFun: function(val) {
+                console.log("excep: " + val);
+            },
+            valueChanged: function(val) {
+                console.log('change: ' + val);
+            }
+        }
+        $(".wan-spinner-1").WanSpinner(options);
+        $(".wan-spinner-2").WanSpinner().css("border-color", "#2C3E50");
+        $(".wan-spinner-3").WanSpinner({inputWidth: 100}).css("border-color", "#C0392B");
+    });
+</script>
 <script src="./js/public.js"></script>
 </body>
 </html>

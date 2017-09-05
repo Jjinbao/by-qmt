@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+
+.about-panel{
+    width: 1114px;
+    margin: 48px auto 102px;
+    font-size: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.about-panel .about-left{
+    width: 168px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.about-menu{
+    margin-top: 39px;
+
+}
+.a-menu{
+    width: 100%;
+    height: 36px;
+    padding-left: 26px;
+    line-height: 37px;
+    cursor: pointer;
+}
+.a-menu-active{
+    color: #ffffff;
+    background-image:url('../images/about-right.png');
+    background-repeat:no-repeat;
+    background-color:#167311;
+    background-position: 136px center;
+    cursor: auto;
+}
+
+.about-platform{
+    width: 100%;
+    color: #333333;
+    padding-bottom: 107px;
+}
+
+.about-platform img{
+    width: 100%;
+}
+
+.about-platform .about-title{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+}
+
+.about-platform .about-time{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.about-panel .about-right{
+    width: 944px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 44px 80px;
+    vertical-align: top;
+    border-left: 1px solid #EEEEEE;
+    min-height: 179px;
+}
+
+ .about-panel .img-name{
+     font-size: 14px;
+     margin-top: 5px;
+     line-height: 37px;
+     text-align: center;
+ }
+
+ .about-ymy{
+     display: none;
+ }
+
+ .common-questions{
+     display: none;
+ }
+
+ .appoint-study{
+     display: none;
+ }
+
+ /*常见问题*/
+.common-questions{
+    width: 100%;
+    color: #333333;
+    padding-bottom: 107px;
+}
+/*预约考察*/
+.appoint-study{
+    width: 100%;
+    color: #333333;
+    padding-bottom: 107px;
+}
+
+.appoint-study .input-form{
+    width: 481px;
+    margin: 0 auto;
+}
+
+.appoint-study .input-form table{
+    width: 100%;
+}
+.appoint-study .input-form .name-phone{
+    font-size: 16px;
+    height: 71px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.appoint-study .input-form input{
+    width: 377px;
+    height: 45px;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    margin-left: 35px;
+    padding-left: 10px;
+}
+
+.appoint-study .input-form textarea{
+    width: 377px;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    margin-left: 35px;
+    height: 145px;
+    resize: none;
+    padding: 5px;
+}
+
+.appoint-study .input-form .stay-info{
+    font-size: 16px;
+}
+
+.stay-join-btn{
+    background: #22891D;
+    box-shadow: 0 2px 80px 0 rgba(0,0,0,0.15);
+    font-size: 16px;
+    width: 185px;
+    height: 48px;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+    margin: 50px auto 0;
+}
+

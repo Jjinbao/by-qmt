@@ -3,7 +3,7 @@ $('.header-logo').on('click',function(e){
 })
 var clickEnterBtn=function(e){
     if(e.keyCode == '13'){
-        alert('ok');
+        $('#search_name').blur();
     }
 }
 
