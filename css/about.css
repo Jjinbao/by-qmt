@@ -27,6 +27,12 @@
     line-height: 37px;
     cursor: pointer;
 }
+
+.a-menu a{
+    text-decoration: none;
+    color: #333333;
+
+}
 .a-menu-active{
     color: #ffffff;
     background-image:url('../images/about-right.png');
@@ -34,6 +40,11 @@
     background-color:#167311;
     background-position: 136px center;
     cursor: auto;
+}
+
+.a-menu-active a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .about-platform{
@@ -77,22 +88,38 @@
  }
 
  .about-ymy{
-     display: none;
+
  }
 
  .common-questions{
-     display: none;
+     width: 100%;
+
+     font-size: 14px;
  }
 
+ .common-questions .a-question{
+     width: 100%;
+     height: 40px;
+     border-bottom: 1px solid #EEEEEE;
+     line-height: 40px;
+     font-size: 14px;
+ }
+
+.common-questions .a-question a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
  .appoint-study{
-     display: none;
+     margin-top: 17px;
  }
 
  /*常见问题*/
 .common-questions{
     width: 100%;
     color: #333333;
-    padding-bottom: 107px;
+    padding-bottom: 44px;
 }
 /*预约考察*/
 .appoint-study{
