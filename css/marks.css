@@ -189,10 +189,9 @@
 
 .success-panel{
     position: relative;
-    margin-top: 36px;
-    margin-bottom: 104px;
     padding: 21px 46px 200px;
     color: #333333;
+    margin:  36px auto 104px;
 }
 
 .success-panel .confirm-title{
@@ -228,6 +227,14 @@
     font-size: 14px;
     margin-top: 8px;
 
+}
+
+.success-panel .confirm-body img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 98px;
+    left: 298px;
 }
 .success-panel .confirm-address{
     padding-top: 42px;
