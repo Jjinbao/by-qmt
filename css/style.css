@@ -136,11 +136,11 @@ html,body{
     display: inline-block;
     vertical-align: top;
     font-size: 0;
-    margin-right: 99px;
-    margin-top: 75px;
+    margin-right: 48px;
+    margin-top: 67px;
 }
 .other-links .footer-title{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 29px;
     color: #ffffff;
     letter-spacing: 0;
@@ -148,7 +148,7 @@ html,body{
 .other-links .footer-item{
     font-family: PingFang-Medium;
     color: #ffffff;
-    margin-bottom: 21px;
+    margin-bottom: 14px;
     letter-spacing: 0;
 }
 .other-links .footer-item a{
@@ -170,7 +170,7 @@ html,body{
 .app-download{
     float: right;
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 54px;
     margin-left: 56px;
     color: #ffffff;
@@ -187,7 +187,7 @@ html,body{
     text-align: center;
     width: 100%;
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
     height: 63px;
     background-color: #6A6F74;
 }

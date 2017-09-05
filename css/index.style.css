@@ -5,7 +5,7 @@
 }
 
 .platform-character{
-    width: 1262px;
+    width: 1114px;
     background-color: #ffffff;
     margin: 0 auto;
     position: relative;
@@ -17,8 +17,8 @@
     top: -91px;
     left: 0;
     width: 100%;
-    width: 1262px;
-    height: 362px;
+    width: 1114px;
+    height: 308px;
     background-color: #ffffff;
     -moz-box-shadow:0 2px 40px 0 rgba(0,0,0,0.04);
     -webkit-box-shadow:0 2px 40px 0 rgba(0,0,0,0.04);
@@ -27,8 +27,8 @@
 }
 
 .platform-character .plat-panel img{
-    width: 132px;
-    height: 132px;
+    width: 90px;
+    height: 90px;
     vertical-align: top;
 }
 
@@ -37,39 +37,39 @@
 }
 
 .plat-panel .a-special-item .s-title{
-    margin-top: 39px;
-    font-size: 22px;
+    margin-top: 34px;
+    font-size: 20px;
     line-height: 1;
 }
 .plat-panel .a-special-item .s-sub-title{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1;
-    margin-top: 14px;
+    margin-top: 16px;
 }
 
 .index-second-panel{
     width: 100%;
     margin-top: 370px;
     background-color: #ffffff;
-    padding-top: 81px;
+    padding-top: 51px;
     padding-bottom: 64px;
 }
 
 .index-second-panel .panel-title{
-    font-size: 36px;
+    font-size: 26px;
     text-align: center;
     line-height: 1;
 }
 
 .index-second-panel .pro-panel{
-    width: 1226px;
-    margin: 68px auto 0;
+    width: 1150px;
+    margin: 38px auto 0;
 }
 
 .index-second-panel .pro-panel .index-pro{
     position: relative;
-    width: 378px;
-    height: 576px;
+    width: 334px;
+    height: 500px;
     margin: 0 auto 123px;
     -moz-box-shadow:0 2px 60px 0 rgba(0,0,0,0.08);
     -webkit-box-shadow:0 2px 60px 0 rgba(0,0,0,0.08);
@@ -82,27 +82,27 @@
 }
 
 .index-pro .index-pro-name{
-    font-size: 20px;
-    padding-left: 34px;
+    font-size: 18px;
+    padding-left: 30px;
     line-height: 1;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .index-pro .index-pro-zq{
-    margin-top: 6px;
+    margin-top: 4px;
     font-size: 14px;
     color: #999999;
     letter-spacing: 0;
-    padding-left: 34px;
+    padding-left: 30px;
 }
 .index-pro .index-pro-price{
-    margin-top: 18px;
+    margin-top: 14px;
     font-size: 16px;
     color: #333333;
     line-height: 45px;
-    padding-left: 34px;
+    padding-left: 30px;
 }
 .index-pro .unit-price{
-    font-size: 32px;
+    font-size: 28px;
     color: #F12740;
     letter-spacing: 0;
 }
