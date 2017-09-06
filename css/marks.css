@@ -480,11 +480,21 @@
 .success-panel .confirm-infos .sure-btn a:hover{
     text-decoration: none;
 }
-#address{
+.confirm-address .address{
     box-sizing: border-box;
+    height: 49px;
+    line-height: 48px;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
 }
-#address:hover{
+.confirm-address .address:hover{
     border: 1px solid #22891D;
+}
+
+.confirm-address .address img{
+    width: 16px;
+    height: 15px;
 }
 
 
