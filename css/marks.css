@@ -119,7 +119,7 @@
     width:1128px;
     background-color: white;
     margin: 0 auto 102px;
-    padding: 40px 90px 10px;
+    padding: 40px 90px 61px;
 }
 
 .marks-detail-container .marks-detial{
@@ -139,6 +139,35 @@
     margin-top: 16px;
     padding: 14px 0 20px 19px;
     font-size: 0;
+}
+
+.marks-detail-container .marks-detial .detail-images{
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.marks-detail-container .marks-detial .detail-images #bigImg{
+    width: 339px;
+    height: 296px;
+    vertical-align: top;
+}
+
+.marks-detial .detail-images .image-scrolls{
+    width: 345px;
+    margin-top: 20px;
+    font-size: 0;
+}
+
+.marks-detial .detail-images .image-scrolls .a-small-img{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.marks-detial .detail-images .image-scrolls img{
+    vertical-align: top;
+    width: 100%;
+
 }
 
 .detail-mark-mail .marks{
@@ -289,6 +318,30 @@
     background: url('../images/selected.png') no-repeat left center;
 }
 
+.marks-detail-container .detail-intro{
+    width: 100%;
+    margin-top: 63px;
+    position: relative;
+    border-top: 2px dashed #979797;
+    padding-top: 46px;
+}
+
+.marks-detail-container .detail-intro .pro-detail-title{
+    width: 233px;
+    line-height: 37px;
+    position: absolute;
+    background-color: #ffffff;
+    text-align: center;
+    top: -20px;
+    left: 359px;
+    font-size: 16px;
+}
+
+.marks-detail-container .detail-intro .pro-detail-imgs{
+    width: 100%;
+    background-color: #f7f7f7;
+    min-height: 200px;
+}
 
 
 .success-panel{
@@ -496,5 +549,90 @@
     width: 16px;
     height: 15px;
 }
+
+
+
+
+/* Example wrapper */
+.wrap {
+    position: relative;
+    margin: 3em 0;
+}
+
+/* Frame */
+.frame {
+    margin-top: 10px;
+    width: 339px;
+    height: 52px;
+    line-height: 52px;
+    overflow: hidden;
+}
+.frame ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 50px;
+}
+.frame ul li {
+    float: left;
+    width: 60px;
+    height: 52px;
+    height: 100%;
+    margin: 0 10px 0 0;
+    padding: 0;
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.frame ul li img{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+.frame ul li.active {
+    color: #fff;
+    background: #a03232;
+}
+
+/* Pages */
+.pages {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+.pages li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+.pages li:hover {
+    background: #aaa;
+}
+.pages li.active {
+    background: #666;
+}
+
+/* Controls */
+.controls { margin: 25px 0; text-align: center; }
+
+/* One Item Per Frame example*/
+.oneperframe { height: 300px; line-height: 300px; }
+.oneperframe ul li { width: 1140px; }
+.oneperframe ul li.active { background: #333; }
+
+/* Crazy example */
+.crazy ul li:nth-child(2n) { width: 100px; margin: 0 4px 0 20px; }
+.crazy ul li:nth-child(3n) { width: 300px; margin: 0 10px 0 5px; }
+.crazy ul li:nth-child(4n) { width: 400px; margin: 0 30px 0 2px; }
 
 

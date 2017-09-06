@@ -28,42 +28,41 @@
 </div>
 
 <div id="body">
-    <div id="myCarousel" class="carousel slide">
-        <!-- 轮播（Carousel）指标 -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <!-- 轮播（Carousel）项目 -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="../../images/active-banner.jpg" style="width: 100%" alt="First slide">
-                <!--<div class="carousel-caption>标题 1</div>-->
-            </div>
-            <div class="item">
-                <img src="../../images/active-banner.jpg" style="width: 100%" alt="Second slide">
-                <!--<div class="carousel-caption">标题 2</div>-->
-            </div>
-            <div class="item">
-                <img src="../../images/active-banner.jpg" style="width: 100%" alt="Third slide">
-                <!--<div class="carousel-caption">标题 3</div>-->
-            </div>
-        </div>
-        <!-- 轮播（Carousel）导航 -->
-        <a class="my-carousel-left" href="#myCarousel"
-           data-slide="prev">
-            <img src="../../images/Group%209.png" alt="">
-        </a>
-        <a class="my-carousel-right" href="#myCarousel"
-           data-slide="next">
-            <img src="../../images/Group%202.png" alt="">
-        </a>
-    </div>
+    <!--<div id="myCarousel" class="carousel slide">-->
+        <!--&lt;!&ndash; 轮播（Carousel）指标 &ndash;&gt;-->
+        <!--<ol class="carousel-indicators">-->
+            <!--<li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+            <!--<li data-target="#myCarousel" data-slide-to="1"></li>-->
+            <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+        <!--</ol>-->
+        <!--&lt;!&ndash; 轮播（Carousel）项目 &ndash;&gt;-->
+        <!--<div class="carousel-inner">-->
+            <!--<div class="item active">-->
+                <!--<img src="../../images/active-banner.jpg" style="width: 100%" alt="First slide">-->
+                <!--&lt;!&ndash;<div class="carousel-caption>标题 1</div>&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="item">-->
+                <!--<img src="../../images/active-banner.jpg" style="width: 100%" alt="Second slide">-->
+                <!--&lt;!&ndash;<div class="carousel-caption">标题 2</div>&ndash;&gt;-->
+            <!--</div>-->
+            <!--<div class="item">-->
+                <!--<img src="../../images/active-banner.jpg" style="width: 100%" alt="Third slide">-->
+                <!--&lt;!&ndash;<div class="carousel-caption">标题 3</div>&ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--&lt;!&ndash; 轮播（Carousel）导航 &ndash;&gt;-->
+        <!--<a class="my-carousel-left" href="#myCarousel"-->
+           <!--data-slide="prev">-->
+            <!--<img src="../../images/Group%209.png" alt="">-->
+        <!--</a>-->
+        <!--<a class="my-carousel-right" href="#myCarousel"-->
+           <!--data-slide="next">-->
+            <!--<img src="../../images/Group%202.png" alt="">-->
+        <!--</a>-->
+    <!--</div>-->
 
     <div class="container body-container">
         <div class="marks-title">积分商城>产品详情</div>
-
         <div class="marks-detail-container">
             <div class="marks-detial">
                 <div class="detail-title">宁夏安格斯牛（3个月）育牛投资</div>
@@ -83,7 +82,7 @@
                     <div class="num-title">数量</div>
                     <div class="plus-minus">
                         <div class="minus">
-                           -
+                             -
                         </div>
                         <input id="buy_num" type="tel" value="1">
                         <div class="plus">
@@ -93,13 +92,35 @@
                 </div>
                 <div class="detial-join-btn">立即参与</div>
                 <div class="agree-deal">我已经阅读并同意《XX协议》</div>
+                <div class="detail-images">
+                    <div class="show-img">
+                        <img id="bigImg" src="../../images/cattle1.png">
+                    </div>
+                    <div class="frame" id="cyclepages">
+                        <ul class="clearfix">
+                            <li class="imgpar"><img src="../../images/img-small.jpg"></li>
+                            <li class="imgpar"><img src="../../images/img-small.jpg"></li>
+                            <li class="imgpar"><img src="../../images/img-small.jpg"></li>
+                            <li class="imgpar"><img src="../../images/img-small.jpg"></li>
+                            <li class="imgpar"><img src="../../images/img-small.jpg"></li>
+                            <li class="imgpar"><img src="../../images/img-small.jpg"></li>
+                            <li class="imgpar"><img src="../../images/img-small.jpg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-intro">
+                <div class="pro-detail-title">
+                    产品详情
+                </div>
+                <div class="pro-detail-imgs">
+
+                </div>
             </div>
         </div>
-
     </div>
 
 </div>
-
 <div id="footer">
     <div class="container footer-container">
         <div class="other-links">
@@ -138,6 +159,8 @@
 </div>
 <script src="../../lib/jquery-3.0.0.min.js"></script>
 <script src="../../lib/js/bootstrap.min.js"></script>
+<script src="../../lib/plugins.js"></script>
+<script src="../../lib/sly.min.js"></script>
 <script src="../../js/public.js"></script>
 <script src="../../js/marks.js"></script>
 </body>
