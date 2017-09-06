@@ -1,19 +1,6 @@
 $('.header-logo').on('click',function(e){
     window.location.href='./index.html'
 })
-var clickEnterBtn=function(e){
-    if(e.keyCode == '13'){
-        $('#search_name').blur();
-    }
-}
-
-$('#search_name').focus(function(){
-    $(document).bind('keyup',clickEnterBtn);
-});
-
-$('#search_name').blur(function(){
-    $(document).unbind('keyup',clickEnterBtn);
-});
 
 //监听滚动条事件
 

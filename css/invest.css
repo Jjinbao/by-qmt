@@ -89,6 +89,17 @@
     padding-right: 34px;
 }
 
+.invest-panel .search-invest{
+    font-size: 14px;
+    color: #999999;
+    margin-right: 34px;
+}
+
+.search-result-num{
+    float: right;
+    font-size: 14px;
+}
+
 .invest-panel .pro-list{
     width: 100%;
     margin-top: 40px;
@@ -188,7 +199,7 @@
     font-size: 16px;
     color: #ffffff;
     margin-left: 75px;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
 
