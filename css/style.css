@@ -135,6 +135,8 @@ html,body{
     height: 100%;
     width: 1226px;
     position: relative;
+    padding-left: 56px;
+    padding-right: 56px;
 }
 .other-links{
     display: inline-block;

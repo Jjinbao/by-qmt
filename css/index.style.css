@@ -10,13 +10,14 @@
     margin: 0 auto;
     position: relative;
     color: #333333;
+    height: 20px;
+    background-color: green;
 }
 
 .platform-character .plat-panel{
     position: absolute;
     top: -91px;
     left: 0;
-    width: 100%;
     width: 1114px;
     height: 308px;
     background-color: #ffffff;
@@ -156,6 +157,15 @@
     color: #ffffff;
     margin-left: 75px;
     margin-top: 12px;
+}
+
+.index-pro .index-pro-buy a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
 }
 
 .index-second-panel .see-more{
