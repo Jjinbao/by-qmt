@@ -115,6 +115,15 @@
     cursor: pointer;
 }
 
+.one-mark-item .title-price .one-price .change a{
+    display: block;
+    height: 36px;
+    line-height: 35px;
+    text-decoration: none;
+    border-radius: 21px;
+    color: #ffffff;
+}
+
 .marks-detail-container{
     width:1128px;
     background-color: white;
@@ -215,6 +224,15 @@
     margin-top: 35px;
 }
 
+.detial-join-btn a{
+    display: block;
+    height: 40px;
+    color: #ffffff;
+    line-height: 40px;
+    width: 169px;
+    text-decoration: none;
+}
+
 .classic{
     font-size: 0;
     color: #333333;
@@ -267,14 +285,14 @@
     vertical-align: top;
 }
 
-.buy-num .plus-minus{
+.plus-minus{
     display: inline-block;
     clear: both;
     font-size: 14px;
 
 }
 
-.buy-num .plus-minus .minus{
+.plus-minus .minus{
     float: left;
     width: 34px;
     height: 32px;
@@ -283,9 +301,13 @@
     background-color: #e0e0e0;
     margin-left: 36px;
     font-size: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 
-.buy-num .plus-minus input{
+.plus-minus input{
     float: left;
     width: 69px;
     height: 32px;
@@ -296,7 +318,7 @@
     text-align: center;
 }
 
-.buy-num .plus-minus .plus{
+.plus-minus .plus{
     float: left;
     width: 34px;
     height: 32px;
@@ -304,6 +326,10 @@
     cursor: pointer;
     background-color: #e0e0e0;
     font-size: 20px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 
 .agree-deal{
@@ -520,6 +546,15 @@
 }
 
 .success-panel .confirm-infos .sure-btn a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.success-panel .confirm-infos .sure-btn a{
     height: 100%;
     width: 100%;
     line-height: 49px;
@@ -540,6 +575,7 @@
     font-size: 14px;
     text-align: left;
     cursor: pointer;
+    border: 1px solid #ffffff;
 }
 .confirm-address .address:hover{
     border: 1px solid #22891D;

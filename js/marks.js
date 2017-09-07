@@ -5,9 +5,9 @@ $(document).ready(function(){
     })
     $('#myCarousel').carousel({interval:5000});//每隔5秒自动轮播
 
-    $('.change').on('click',function(e){
-        window.location.href='./templates/marks/detail.html'
-    })
+    // $('.change').on('click',function(e){
+    //     window.location.href='./templates/marks/detail.html'
+    // })
 
     $('.minus').click(function(e){
         if($('#buy_num').val()>0){
