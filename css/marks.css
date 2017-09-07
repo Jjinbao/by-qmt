@@ -286,6 +286,7 @@
 }
 
 .plus-minus{
+    vertical-align: top;
     display: inline-block;
     clear: both;
     font-size: 14px;
@@ -296,6 +297,7 @@
     float: left;
     width: 34px;
     height: 32px;
+    line-height: 31px;
     text-align: center;
     cursor: pointer;
     background-color: #e0e0e0;
@@ -322,6 +324,7 @@
     float: left;
     width: 34px;
     height: 32px;
+    line-height: 31px;
     text-align: center;
     cursor: pointer;
     background-color: #e0e0e0;
