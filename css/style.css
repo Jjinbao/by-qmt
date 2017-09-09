@@ -256,16 +256,14 @@ html,body{
 }
 
 /*右侧小工具栏*/
-.attach-tools{
+
+.attach-tools .to-top{
     position: fixed;
     right: 0;
     bottom: 100px;
-}
-
-.attach-tools .to-top{
     width: 76px;
     height: 76px;
-    background-color: green;
+    background-color: #8e8e8e;
     text-align: center;
     display: none;
     padding-top: 16px;
@@ -273,21 +271,25 @@ html,body{
 }
 
 .attach-tools .phone-ask{
+    position: fixed;
+    right: 0;
+    bottom: 286px;
     width: 76px;
     height: 76px;
     background-color: #22891D;
     text-align: center;
-    margin-top: 17px;
     padding-top: 16px;
     cursor: pointer;
 }
 
 .attach-tools .qq-ask{
+    position: fixed;
+    right: 0;
+    bottom: 193px;
     width: 76px;
     height: 76px;
     background-color: #05719F;
     text-align: center;
-    margin-top: 17px;
     padding-top: 16px;
     cursor: pointer;
 }
