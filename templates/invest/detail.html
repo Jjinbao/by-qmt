@@ -78,13 +78,13 @@
                     </div>
                     <div class="detail-mark-mail">
                         <div class="marks">认领价格:</div>
-                        <div class="price"><span>8000</span>元/只</div>
+                        <div class="price"><span>8000</span>元/只 &nbsp;&nbsp;&nbsp;&nbsp;赠送拍照服务<span style="color: #22891D;font-size: 14px;">3</span>次</div>
                         <br>
                         <div class="mail">月饲养管理费</div>
                         <div class="mail"><span style="margin-left: 17px;font-size:18px;color: #22891D">450</span> 元/月</div>
                         <br>
                         <div class="mail">单只最低收益</div>
-                        <div class="mail"><span style="margin-left: 17px;font-size:18px;color: #22891D">450</span> 元/月</div>
+                        <div class="mail"><span style="margin-left: 17px;font-size:18px;color: #22891D">450</span> 元/只</div>
                     </div>
                     <div class="classic">
                         <div class="classic-title">收益方式</div>
@@ -96,14 +96,14 @@
                         <div class="classic-style classic-style-active">500元/只(称重5次)</div>
                         <div class="classic-style">无</div>
                     </div>
-                    <div class="buy-num">
+                    <div class="buy-num" style="margin-top: 20px;">
                         <div class="num-title">认领数量</div>
                         <div class="plus-minus">
-                            <div class="minus">
+                            <div id="numMinus" class="minus">
                                 -
                             </div>
                             <input id="buy_num" type="tel" value="1">
-                            <div class="plus">
+                            <div id="numPlus" class="plus">
                                 +
                             </div>
                         </div>
@@ -115,18 +115,18 @@
                     <div class="buy-num">
                         <div class="num-title">饲养管理费</div>
                         <div class="plus-minus">
-                            <div class="minus">
+                            <div id="feeMinus" class="minus" style="margin-left: 20px">
                                 -
                             </div>
                             <input id="manage-expense" type="tel" value="1">
-                            <div class="plus">
+                            <div id="feePlus" class="plus">
                                 +
                             </div>
                         </div>
                         <div class="animal-surplus">
                             共11个月
                         </div>
-                        <div class="num-tip">最少支付1个月</div>
+                        <div class="num-tip" style="margin-left: 90px;line-height: normal">最少支付1个月</div>
                     </div>
                     <div class="detial-join-btn">
                         <a href="./confirm.html">立即参与</a>
@@ -138,9 +138,21 @@
                         添加关注
                     </div>
                     <div class="breed-company">
-                        <div class="company-name">样哈吉养殖公司</div>
+                        <div class="company-name"><span style="background-color: #ffffff">样哈吉养殖公司</span></div>
                         <div class="see-ev-data"><a href="#">查看环境监测数据</a></div>
                         <div class="see-video"><a href="#">查看监控视频</a></div>
+                    </div>
+                    <div class="breed-company">
+                        <div class="company-name"><span style="background-color: #ffffff;margin-bottom: 30px;">已认领会员(10人)</span></div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
+                        <div class="buy-people">134 **** 3456 认领10只</div>
                     </div>
                 </div>
                 <div class="detail-images">
@@ -161,8 +173,14 @@
                 </div>
             </div>
             <div class="detail-intro">
-                <div class="pro-detail-title">
+                <div class="pro-detail-title p-active ">
                     产品详情
+                </div>
+                <div class="pro-detail-title" style="margin-left: 122px">
+                    追溯详情
+                </div>
+                <div class="pro-detail-title" style="margin-left: 244px">
+                    称重详情
                 </div>
                 <div class="pro-detail-imgs">
 
@@ -213,6 +231,6 @@
 <script src="../../lib/plugins.js"></script>
 <script src="../../lib/sly.min.js"></script>
 <script src="../../js/public.js"></script>
-<script src="../../js/marks.js"></script>
+<script src="../../js/invest.detail.js"></script>
 </body>
 </html>
