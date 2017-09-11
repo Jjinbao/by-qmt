@@ -109,15 +109,30 @@
 .pro-list .invest-product{
     margin-bottom: 48px;
     width: 322px;
-    height: 480px;
+    height: 397px;
     margin-right: 34px;
     display: inline-block;
     vertical-align: top;
     background: #FFFFFF;
+    position: relative;
     -webkit-box-shadow: 0 2px 60px 0 rgba(0,0,0,0.08);
     -o-box-shadow: 0 2px 60px 0 rgba(0,0,0,0.08);
     -moz-box-shadow: 0 2px 60px 0 rgba(0,0,0,0.08);
     box-shadow: 0 2px 60px 0 rgba(0,0,0,0.08);
+}
+
+.pro-list .invest-product .animal-type{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(0,0,0,0.1);
+    color: #ffffff;
 }
 
 .invest-product img{
@@ -138,12 +153,27 @@
     letter-spacing: 0;
     padding-left: 28px;
 }
+.invest-product .index-pro-zq .animal-number{
+    float: right;
+    margin-right: 80px;
+}
 .invest-product .index-pro-price{
-    margin-top: 14px;
+    margin-top: 17px;
     font-size: 14px;
     color: #333333;
     line-height: 40px;
     padding-left: 28px;
+}
+.hope-earn{
+    float: right;
+    margin-right: 80px;
+    width: 144px;
+    height: 30px;
+    line-height: 30px;
+    margin-right:27px;
+    text-align: center;
+    background: rgba(34,137,29,0.1);
+    margin-top: 8px;
 }
 .invest-product .unit-price{
     font-size: 28px;
@@ -199,7 +229,7 @@
     font-size: 16px;
     color: #ffffff;
     margin-left: 75px;
-    margin-top: 16px;
+    margin-top: 26px;
 }
 
 .invest-product .index-pro-buy a{

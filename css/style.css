@@ -26,30 +26,31 @@ html,body{
 
 .search-input{
     float: right;
-    margin-top: 22px;
     position: relative;
-    margin-right: 50px;
-    height: 37px;
+    height: 30px;
     width: 216px;
+    margin-top: -5px;
 }
 
 .search-input input{
     width: 216px;
-    height: 37px;
+    height: 30px;
     border-radius: 18px;
-    background: #f4f4f4;
     border: 1px solid #DBDBDB;
+    background-color: #ffffff;
+    font-size: 14px;
 }
 
 .search-input .icon-search{
     position: absolute;
     left: 19px;
-    top:7px;
+    top:8px;
     z-index:6;
     background: url('../images/search-icon.png') left center no-repeat;
+    background-size: 14px 14px;
     /*background-position: 0px 0px; !*图片显示的位置*!*/
-    width: 23px; /*设置图片显示的宽*/
-    height: 23px; /*图片显示的高*/
+    width: 14px; /*设置图片显示的宽*/
+    height: 14px; /*图片显示的高*/
 
 }
 

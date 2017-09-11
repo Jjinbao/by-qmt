@@ -116,7 +116,7 @@
      text-indent:28px
  }
 .active-detail-container .live-contact{
-    margin-top: 379px;
+    margin-top: 50px;
     position: relative;
 }
  .active-detail-container .live-contact .line{
@@ -151,4 +151,39 @@
     height: 45px;
     font-size: 16px;
     color: #333333;
+}
+
+.active-search-input{
+    position: absolute;
+    top: 18px;
+    right: 55px;
+    height: 30px;
+    width: 216px;
+}
+
+.active-search-input input{
+    width: 216px;
+    height: 30px;
+    border-radius: 18px;
+    background: #ffffff;
+    font-size: 12px;
+    border: 1px solid #DBDBDB;
+}
+
+.active-search-input .icon-search{
+    position: absolute;
+    left: 19px;
+    top:8px;
+    z-index:6;
+    background: url('../images/search-icon.png') left center no-repeat;
+    background-size: 14px 14px;
+    /*background-position: 0px 0px; !*图片显示的位置*!*/
+    width: 14px; /*设置图片显示的宽*/
+    height: 14px; /*图片显示的高*/
+
+}
+
+.active-search-input input[type=text]:focus{
+    outline: none;
+    border-radius: 20px;
 }

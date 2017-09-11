@@ -589,6 +589,17 @@
     height: 15px;
 }
 
+.manage-address{
+    float: right;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #006EEF;
+}
+.manage-address a{
+    text-decoration: none;
+    color: #006EEF;
+}
+
 
 
 
