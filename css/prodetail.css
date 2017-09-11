@@ -290,6 +290,11 @@
     display: inline-block;
     vertical-align: top;
 }
+.num-tip{
+    font-size: 12px;
+    color: #999999;
+    margin-left: 100px;
+}
 
 
 .plus-minus{
