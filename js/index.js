@@ -1,6 +1,3 @@
-/**
- * Created by dell on 2017-9-4.
- */
 $(document).ready(function(){
     $('#address').on('click',function(e){
 
