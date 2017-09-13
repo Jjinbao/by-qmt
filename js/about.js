@@ -7,4 +7,6 @@ try{
             console.log('1234')
         }
     });
+}catch (e){
+
 }

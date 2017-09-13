@@ -109,6 +109,11 @@ html,body{
     font-size: 14px;
     cursor: pointer;
 }
+
+.user-active{
+    color: #22891D;
+}
+
 #body{
     width: 100%;
     clear: both;
@@ -370,4 +375,53 @@ html,body{
     height: 35px;
     line-height: 35px;
     margin-left: 17px;
+}
+
+/*我的牧场的框架*/
+.mine-panel{
+    width: 1114px;
+    margin: 48px auto;
+    font-size: 0;
+    background-color: #ffffff;
+}
+
+.mine-panel .mine-panel-left{
+    width: 168px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    padding-top: 39px;
+
+}
+
+.mine-panel .mine-panel-left .mine-left-item{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #333333;
+    padding-left: 26px;
+}
+
+.mine-panel-left .mine-left-item a{
+    display: block;
+    text-decoration: none;
+    height: 35px;
+    width: 100%;
+    color: #333333;
+}
+
+.mine-panel-left .mine-left-item .a-active{
+    color: #ffffff;
+    background:url('../images/about-right.png') no-repeat 110px center;
+}
+
+.mine-panel .mine-panel-right{
+    width: 945px;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid #EEEEEE;
+    font-size: 14px;
+    min-height: 284px;
+
 }
