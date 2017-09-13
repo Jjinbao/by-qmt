@@ -46,6 +46,12 @@ body{
     text-align: center;
 }
 
+.login-panel .forget-title{
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
+}
+
 .login-panel .login-register .user-login{
     font-size: 18px;
     display: inline-block;
@@ -99,6 +105,19 @@ body{
     height: 50px;
     width: 47px;
     background: url('../images/lock.png') no-repeat center;
+}
+
+.input-info .get-code{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background-color: #009744;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+    line-height: 50px;
 }
 
 .login-panel .input-info input{
