@@ -315,4 +315,40 @@
     font-size: 16px;
 }
 
+/*我的账单*/
+.bill-in-out{
+    font-size: 14px;
+    padding-left: 23px;
+    height: 60px;
+    color: #999999;
+}
+
+.bill-in-out .bill-in{
+    float: left;
+    margin-right: 106px;
+}
+
+.bill-in-out .bill-in .price{
+    margin-top: 5px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+.bill-list-panel{
+    border-top: 2px dashed #EEEEEE;
+    padding: 29px 31px 34px;
+}
+
+.bill-list-panel table{
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+}
+
+.bill-list-panel table tr{
+    height: 49px;
+    line-height: 49px;
+    border-bottom: 1px dashed #eeeeee;
+}
+
 
