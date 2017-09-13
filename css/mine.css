@@ -351,4 +351,31 @@
     border-bottom: 1px dashed #eeeeee;
 }
 
+/*通知中心*/
+.mine-notice-item{
+    max-height: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #eeeeee;
+}
+
+.mine-notice-item .notice-title{
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.mine-notice-item .notice-title .author-time{
+    float: right;
+    font-weight: normal;
+    margin-right: 5px;
+
+}
+
+.mine-notice-item .notice-detail{
+    margin-top: 13px;
+    font-size: 12px;
+    color: #999999;
+}
+
 
