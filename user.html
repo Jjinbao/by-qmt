@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>用户信息</title>
     <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/remodal.css">
+    <link rel="stylesheet" href="./css/remodal-default-theme.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/user.css">
 </head>
@@ -84,8 +86,79 @@
                     </div>
                     <input class="text-input" placeholder="请输入联系电话" type="text">
                 </div>
+                <div class="add-item-position">
+                    <div class="item-name">
+                        性别
+                    </div>
+                    <div class="gender-type"><input type="radio" name="gender"> 男</div>
+                    <div class="gender-type"><input type="radio" name="gender"> 女</div>
+                </div>
                 <div class="mine-marks">
                     我的积分<span>8920</span>分
+                </div>
+            </div>
+            <div class="add-new-address" style="margin-top: 60px;">
+                <span style="font-weight: bold">账号安全</span>
+            </div>
+            <div class="add-panel" style="padding-left: 20px;">
+                <div class="user-safe-info">
+                    绑定手机号
+                    <div class="safe-phone">
+                        13310526777
+                    </div>
+                    <div class="modify-info">
+                        <a href="#modal">修改手机号</a>
+                    </div>
+                </div>
+                <div class="user-safe-info">
+                    身份证号
+                    <div class="safe-phone">
+                        140628********6532
+                    </div>
+                </div>
+                <div class="user-safe-info">
+                    修改密码
+                    <div class="safe-phone">
+                        ******
+                    </div>
+                    <div class="modify-info">
+                        <a href="#">点击修改</a>
+                    </div>
+                </div>
+                <div class="user-safe-info">
+                    支付密码
+                    <div class="safe-phone">
+                        ******
+                    </div>
+                    <div class="modify-info">
+                        <a href="#">点击修改</a>
+                    </div>
+                </div>
+                <div class="user-safe-info">
+                    绑定银行卡
+                    <div class="modify-info">
+                        <a href="#">绑定</a>
+                    </div>
+                </div>
+                <div class="bank-card">
+                    <div class="card-img"></div>
+                    <div class="bank-name">中国工商银行</div>
+                    <div class="bank-last">
+                        尾号3341
+                    </div>
+                    <div class="relieve-bind">
+                        <a class="unbind" href="#">解绑</a>
+                    </div>
+                </div>
+                <div class="bank-card" style="border: none">
+                    <div class="card-img"></div>
+                    <div class="bank-name">中国建设银行</div>
+                    <div class="bank-last">
+                        尾号3456
+                    </div>
+                    <div class="relieve-bind">
+                        <a class="unbind" href="#modal">解绑</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,19 +200,33 @@
     </div>
     <div class="copy-right">©ALIMAMA MUX, powered by alimama THX.法律声明</div>
 </div>
-<div class="attach-tools">
-    <div class="phone-ask">
-        <img src="./images/phone-ask.png">
+<!--<div class="attach-tools">-->
+    <!--<div class="phone-ask">-->
+        <!--<img src="./images/phone-ask.png">-->
+    <!--</div>-->
+    <!--<div class="qq-ask">-->
+        <!--<img src="./images/qq-ask.png">-->
+    <!--</div>-->
+    <!--<div class="to-top">-->
+        <!--<img src="./images/back-top.png">-->
+    <!--</div>-->
+<!--</div>-->
+<div style="width: 567px;height: 305px" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+    <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+    <div>
+        <h2 id="modal1Title">Remodal</h2>
+        <p id="modal1Desc">
+            Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin
+            with declarative state notation and hash tracking.
+        </p>
     </div>
-    <div class="qq-ask">
-        <img src="./images/qq-ask.png">
-    </div>
-    <div class="to-top">
-        <img src="./images/back-top.png">
-    </div>
+    <br>
+    <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+    <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
 </div>
 <script src="./lib/jquery-3.0.0.min.js"></script>
 <script src="./lib/js/bootstrap.min.js"></script>
+<script src="./lib/remodal.min.js"></script>
 <script src="./js/public.js"></script>
 <script src="./js/user-msg.js"></script>
 </body>

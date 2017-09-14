@@ -131,6 +131,13 @@
     line-height: 40px;
 }
 
+.add-item-position .gender-type{
+    height: 40px;
+    line-height: 40px;
+    margin-right:54px;
+    float: left;
+}
+
 .add-item-position .text-input{
     float: left;
     height: 40px;
@@ -148,3 +155,97 @@
     margin-left: 26px;
     padding-left: 20px;
 }
+
+.add-panel .user-safe-info{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #EEEEEE;
+    position: relative;
+    font-size: 14px;
+    color: #333333;
+}
+
+.add-panel .user-safe-info .safe-phone{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 100px;
+    color: #999999;
+}
+
+.add-panel .user-safe-info .modify-info{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 15px;
+
+}
+
+.user-safe-info .modify-info a{
+    color: #4A90E2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bank-card{
+    margin-left: 100px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #EEEEEE;
+    position: relative;
+}
+
+.bank-card .card-img{
+    position: absolute;
+    top: 10px;
+    width: 29px;
+    height: 29px;
+    border-radius: 29px;
+    background-color: #D8D8D8;
+}
+.bank-name{
+    position: absolute;
+    left: 40px;
+    height: 50px;
+    top: 0;
+}
+
+.bank-card .relieve-bind{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 15px;
+
+}
+
+.bank-card .bank-last{
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 360px;
+}
+
+.bank-card .relieve-bind a{
+    color: #4A90E2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.remodal-bg.with-red-theme.remodal-is-opening,
+.remodal-bg.with-red-theme.remodal-is-opened {
+    filter: none;
+}
+
+.remodal-overlay.with-red-theme {
+    background-color: #f44336;
+}
+
+.remodal.with-red-theme {
+    background: #fff;
+}
+
+.remodal-overlay{
+    background: rgba(0,0,0,0.3);
+}
+
