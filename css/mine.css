@@ -130,6 +130,24 @@
     padding-left: 20px;
 }
 
+.select-province{
+    height: 40px;
+}
+
+.select-province .prov{
+    height: 40px;
+    line-height: 40px;
+    width: 134px;
+    border: 1px solid #eeeeee;
+}
+
+.select-province .city{
+    height: 40px;
+    line-height: 40px;
+    min-width: 134px;
+    border: 1px solid #eeeeee;
+}
+
 /*我的活动*/
 .mine-active-right{
     padding: 30px 70px 32px 70px;
