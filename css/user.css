@@ -250,7 +250,102 @@
 }
 
 .model-window{
+    padding: 0;
     width: 567px;
-    height: 305px
+    height: 305px;
+    background-color: #F8F9F9;
+}
+
+.model-modify-title{
+    width: 100%;
+    height: 58px;
+    background-color: rgba(20,117,15,0.1);
+    text-align: center;
+    line-height: 58px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.model-input-block{
+    padding-left: 68px;
+    padding-right: 68px;
+    position: relative;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.model-input-block input{
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding-left: 47px;
+}
+
+.user-password-lock{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 17px;
+    left: 88px;
+    background: url('../images/lock.png') no-repeat left center;
+    background-size: 16px 16px;
+}
+
+.submit-btn{
+    width: 168px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 14px;
+    margin: 37px auto 0;
+    background-color: #22891D;
+    cursor: pointer;
+}
+
+.unbing-info{
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    margin-top: 23px;
+}
+.sure-unbind-title{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 58px;
+    font-size: 16px;
+    color: #D0021B;
+}
+
+.bottom-btns{
+    height: 35px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.bottom-btns .sure-unbind{
+    width: 100px;
+    height: 35px;
+    background-color: #22891D;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 35px;
+    position: absolute;
+    left: 148px;
+}
+
+.bottom-btns .cancle-unbind{
+    background-color: #C6C6C6;
+    font-size: 14px;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    left: 308px;
+
 }
 

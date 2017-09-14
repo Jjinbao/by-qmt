@@ -122,7 +122,7 @@
                         ******
                     </div>
                     <div class="modify-info">
-                        <a id="loginWord" href="#">点击修改</a>
+                        <a id="m-password" href="javascript:void(0)">点击修改</a>
                     </div>
                 </div>
                 <div class="user-safe-info">
@@ -131,7 +131,7 @@
                         ******
                     </div>
                     <div class="modify-info">
-                        <a href="#">点击修改</a>
+                        <a id="m-payword" href="javascript:void(0)">点击修改</a>
                     </div>
                 </div>
                 <div class="user-safe-info">
@@ -147,7 +147,7 @@
                         尾号3341
                     </div>
                     <div class="relieve-bind">
-                        <a class="unbind" href="#">解绑</a>
+                        <a class="unbind" href="javascript:void(0)">解绑</a>
                     </div>
                 </div>
                 <div class="bank-card" style="border: none">
@@ -157,7 +157,7 @@
                         尾号3456
                     </div>
                     <div class="relieve-bind">
-                        <a class="unbind" href="#modal">解绑</a>
+                        <a class="unbind" href="javascript:void(0)">解绑</a>
                     </div>
                 </div>
             </div>
@@ -225,7 +225,41 @@
     <!--<button data-remodal-action="confirm" class="remodal-confirm">OK</button>-->
 <!--</div>-->
 <div class="model-window" data-remodal-id="modal1" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+    <div class="model-modify-title">
+        设置支付密码
+    </div>
+    <div class="model-input-block" style="margin-top: 36px;">
+        <input type="password" placeholder="设置支付密码">
+        <div class="user-password-lock"></div>
+    </div>
+    <div class="model-input-block">
+        <input type="password" placeholder="设置支付密码">
+        <div class="user-password-lock"></div>
+    </div>
+    <div class="submit-btn">
+        提交
+    </div>
+</div>
 
+<!--解除银行卡绑定-->
+<div class="model-window" data-remodal-id="modal2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+    <div class="model-modify-title">
+        确认解绑
+    </div>
+    <div class="unbing-info">
+        提现卡解绑后，该卡的快捷支付功能将被关闭，如需提现需要重新绑定该卡。
+    </div>
+    <div class="sure-unbind-title">
+        确认解除绑定？
+    </div>
+    <div class="bottom-btns">
+        <div class="sure-unbind">
+            解绑
+        </div>
+        <div class="cancle-unbind">
+            取消
+        </div>
+    </div>
 </div>
 <script src="./lib/jquery-3.0.0.min.js"></script>
 <script src="./lib/js/bootstrap.min.js"></script>

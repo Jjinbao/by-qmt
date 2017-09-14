@@ -103,11 +103,17 @@ html,body{
     text-decoration: none;
 }
 .user-center{
+    display: block;
     float: right;
     margin-top: 30px;
     color: #333;
     font-size: 14px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.user-center:hover{
+    text-decoration: none;
 }
 
 .user-active{

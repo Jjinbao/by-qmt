@@ -22,13 +22,17 @@
 //     console.log('cancellation');
 // });
 //模态框初始化
-var inst = $('[data-remodal-id=modal1]').remodal();
+var inst1 = $('[data-remodal-id=modal1]').remodal();
+var inst2 = $('[data-remodal-id=modal2]').remodal();
 
 $('#loginWord').click(function(e){
     inst.open();
 })
 
 $('.unbind').on('click',function(e){
-    console.log(e.target.parentNode.parentNode);
-    inst.open();
+    inst2.open();
+})
+
+$('#m-payword').on('click',function(e){
+    inst1.open();
 })
