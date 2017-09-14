@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+.finical-detail-right{
+    padding: 47px 50px;
+}
+
+.f-detail-tab{
+    font-size: 14px;
+    color: #333333;
+}
+
+.f-detail-tab a{
+    color: #333333;
+}
+
+.f-order-status{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.f-leave-tile{
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.f-leave-tile span{
+    color: #F12740;
+}
+
+.confirm-step{
+    width: 458px;
+    height: 26px;
+    margin: 50px auto 0;
+}
+
+.step-flag{
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #C3C3C3;
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 13px;
+    margin-right: 5px;
+}
+
+.step-flag-active{
+    background-color: #22891D;
+}
+
+.step-analyse{
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+}
+
+.step-line{
+    border: 1px solid #C3C3C3;
+    width: 60px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.step-line-active{
+    border-color: #22891D;
+}
+
+.f-invest-type{
+    float: left;
+    padding-left: 34px;
+    padding-top: 32px;
+    width: 207px;
+    height: 112px;
+    border-right: 1px solid rgba(151,151,151,0.1);
+}
+.f-invest-type .f-type{
+    color: #999999;
+    font-size: 14px;
+}
+
+.f-invest-type .f-in-value{
+    font-size: 16px;
+}
+
+.f-pay{
+    float: left;
+    height: 112px;
+    line-height: 112px;
+    width: 487px;
+    text-align: center;
+    font-size: 16px;
+    border-right: 1px solid rgba(151,151,151,0.1);
+}
+
+.f-pay span{
+    font-size: 22px;
+    color: #F12740;
+    font-weight: bold;
+}
