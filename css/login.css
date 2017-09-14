@@ -98,6 +98,15 @@ body{
     margin-left: 420px;
 }
 
+.wrong-warn{
+    width: 200px;
+    position: absolute;
+    left: 445px;
+    top: 15px;
+    font-size: 14px;
+    color: #D0021B;
+}
+
 .input-info .user-icon{
     position: absolute;
     top: 0;
@@ -105,6 +114,15 @@ body{
     height: 50px;
     width: 47px;
     background: url('../images/lock.png') no-repeat center;
+}
+
+.input-info .user-icon-dun{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 47px;
+    background: url('../images/dun.png') no-repeat center;
 }
 
 .input-info .get-code{
@@ -120,6 +138,12 @@ body{
     line-height: 50px;
 }
 
+.input-info .get-code img{
+    height: 50px;
+    width: 100px;
+    vertical-align: top;
+}
+
 .login-panel .input-info input{
     width: 430px;
     height: 50px;
@@ -128,6 +152,10 @@ body{
     border: none;
     background-color: #ffffff;
     border: 1px solid #ffffff;
+}
+
+.login-panel .input-info input ::-ms-clear{
+    display: none;
 }
 
 .input-info .login-btn{
@@ -148,6 +176,14 @@ body{
     text-decoration: none;
     color: #999999;
     font-size: 14px;
+}
+
+.input-info .agree-deal{
+    font-size: 14px;
+    margin-top: 10px;
+    background: url('../images/no-select.png') no-repeat left center;
+    padding-left: 20px;
+    cursor: pointer;
 }
 
 #footer{

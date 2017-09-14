@@ -13,24 +13,95 @@
 <div id="body">
     <div class="login-panel">
         <div class="login-register">
-            <div class="user-login"><a href="#">登录</a></div>
-            <div class="user-register"><a class="log-active" href="./register.html">注册</a></div>
+            <div class="user-login"><a href="./login.html">登录</a></div>
+            <div class="user-register"><a class="log-active" href="#">注册</a></div>
         </div>
         <div class="input-info" style="margin-top: 45px;">
             <div class="user-icon"></div>
             <input type="text" placeholder="请输入手机号">
+            <div class="wrong-warn">
+                手机号不合法
+            </div>
+        </div>
+        <div class="input-info">
+            <div class="user-icon-dun"></div>
+            <input type="text" placeholder="请输入图形验证码" style="padding-right: 100px;">
+            <div class="get-code">
+                <img src="./images/tu-code.png">
+            </div>
+            <div class="wrong-warn">
+                图形验证码错误
+            </div>
+        </div>
+        <div class="input-info">
+            <div class="user-icon-dun"></div>
+            <input type="text" placeholder="请输入验证码" style="padding-right: 100px;">
+            <div class="get-code">获取验证码</div>
+            <div class="wrong-warn">
+                验证码错误
+            </div>
         </div>
         <div class="input-info">
             <div class="user-icon"></div>
-            <input type="password" placeholder="请输入验证码" style="padding-right: 100px;">
-            <div class="get-code">获取验证码</div>
+            <input type="text" placeholder="请输入密码">
+            <div class="wrong-warn">
+                请输入6-20位密码
+            </div>
+        </div>
+        <div class="input-info">
+            <div class="user-icon"></div>
+            <input type="text" placeholder="请确认密码">
+            <div class="wrong-warn">
+                两次密码输入不一致
+            </div>
         </div>
         <div class="input-info">
             <div class="login-btn">
-                提交
+                注册
+            </div>
+        </div>
+        <div class="input-info">
+            <div class="agree-deal">
+                我已经阅读并同意《XXX协议》
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container footer-container">
+        <div class="other-links">
+            <div class="footer-title">关于我们</div>
+            <div class="footer-item"><a href="javascript:void(0)">平台介绍</a></div>
+            <div class="footer-item"><a href="javascript:void(0)">伊牧云</a></div>
+        </div>
+        <div class="other-links">
+            <div class="footer-title">预约考察</div>
+            <div class="footer-item"><a href="javascript:void(0)">法律声明</a></div>
+        </div>
+        <div class="other-links">
+            <div class="footer-title">帮助中心</div>
+            <div class="footer-item"><a href="javascript:void(0)">常见问题</a></div>
+        </div>
+        <div class="other-links">
+            <div class="footer-title">相关链接</div>
+            <div class="footer-item"><a href="javascript:void(0)">追溯监管</a></div>
+            <div class="footer-item"><a href="javascript:void(0)">活畜交易</a></div>
+        </div>
+        <div class="app-download">
+            <div class="app-ma">
+                <img class="img1" src="./images/1503393434.png">
+                <div>微信公众号</div>
+            </div>
+        </div>
+        <div class="app-download">
+            <div class="app-ma">
+                <img class="img1" src="./images/1503393434.png">
+                <div>手机APP</div>
             </div>
         </div>
     </div>
+    <div class="copy-right">©ALIMAMA MUX, powered by alimama THX.法律声明</div>
 </div>
 <script src="./lib/jquery-3.0.0.min.js"></script>
 <script src="./lib/js/bootstrap.min.js"></script>
