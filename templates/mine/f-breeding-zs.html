@@ -54,28 +54,9 @@
         </div>
         <div class="mine-panel-right finical-detail-right">
             <div class="f-detail-tab">
-                <a href="./financing-bill.html">我的理财订单</a>><span>待支付订单详情</span>
+                <a href="./financing-bill.html">我的理财订单</a>><span>投资养殖中订单详情</span>
             </div>
-            <div class="add-panel">
-                <div class="confirm-step">
-                    <div class="step-flag step-flag-active">1</div>
-                    <div class="step-analyse">确认订单信息</div>
-                    <div class="step-line step-line-active"></div>
-                    <div class="step-flag step-flag-active">2</div>
-                    <div class="step-analyse">支付订单</div>
-                    <div class="step-line"></div>
-                    <div class="step-flag">3</div>
-                    <div class="step-analyse">认领完成</div>
-                </div>
-            </div>
-            <div class="f-order-status">
-                订单状态：待支付
-            </div>
-            <div class="f-leave-tile">
-                请您在<span>30分钟00秒</span>内完成支付，否则订单会被自动取消
-            </div>
-
-            <div class="financial-item">
+            <div class="financial-item" style="margin-top: 39px;">
                 <div class="bill-title">
                     <div class="bill-time">
                         2017/0703 12:34
@@ -83,27 +64,49 @@
                     <div class="bill-number">
                         订单号：3325435365
                     </div>
-                    <div class="bill-status">
-                        待支付
+                    <div class="bill-status" style="color: #F12740">
+                        需在7月30日前支付
                     </div>
                 </div>
-                <div class="bill-detail-item" style="padding-left: 0">
-                    <div class="f-invest-type">
+                <div class="bill-detail-item" style="padding-left: 0;height: 173px;">
+                    <div class="f-invest-type" style="height: 173px;">
                         <div class="f-type">收益方式</div>
                         <div class="f-in-value">浮动收益8%-14%</div>
                     </div>
-                    <div class="f-pay">
-                        本次支付:<span>8000</span>元
+                    <div class="f-bfinish-pay">
+                        <div>金额：<span class="fininsh-money" style="color: #F12740">8000</span> 元 <span class="money-remark">剩余 <span style="color: #F12740">450元 x 10个月</span> 饲养管理费待支付</span></div>
+                        <div style="margin-top: 18px;">预计收益：<span class="have-pay">8002</span> 元 当前收益率： <span class="have-pay">12%</span></div>
+                        <div class="pay-breed-fee">
+                            <div class="breed-fee-title">
+                                支付饲喂管理费
+                            </div>
+                            <div class="breed-feed-calcul">
+                                <div class="plus-minus">
+                                    <div id="feeMinus" class="minus" style="margin-left: 20px">
+                                        -
+                                    </div>
+                                    <input id="manage-expense" type="tel" value="1">
+                                    <div id="feePlus" class="plus">
+                                        +
+                                    </div>
+                                </div>
+                                月 <span style="color: #F12740">450</span>元
+                            </div>
+                            <div class="feed-fee-month">
+                                剩余10个月/共11个月
+                            </div>
+
+                        </div>
                     </div>
 
-                    <div class="operate-panel">
-                        <a class="now-pay" href="#">立即支付</a>
-                        <div class="cancle-order">
-                            <a href="#">取消订单</a>
-                        </div>
+                    <div class="operate-panel" style="height: 173px;">
+                        <a class="now-pay" style="margin-top: 23px;" href="#">查看原订单</a>
+                        <a class="now-pay apply-tranfer" href="#">申请转让</a>
+                        <a class="now-pay apply-tranfer" href="#">申请终止领养</a>
                     </div>
                 </div>
             </div>
+
             <div class="pay-channel-choice">
                 <table>
                     <tr style="font-weight: bold">
@@ -161,8 +164,40 @@
                     1076元~1883元
                 </div>
             </div>
+            <div class="fin-detail-tab">
+                <a class="f-detail-msg" href="./f-finish-breed.html">
+                    产品详情
+                </a>
+                <a class="f-detail-msg active" href="#">
+                    追溯详情
+                </a>
+            </div>
+            <div class="f-detail-container">
+                <div class="f-container-left">
+                    <table>
+                        <tr>
+                            <td class="f-xh">序号</td>
+                            <td class="f-erbiao">耳标号</td>
+                        </tr>
+                        <tr>
+                            <td class="f-xh">1</td>
+                            <td class="f-erbiao">123456789</td>
+                        </tr>
+                        <tr>
+                            <td class="f-xh">2</td>
+                            <td class="f-erbiao">123456789</td>
+                        </tr>
+                        <tr>
+                            <td class="f-xh">3</td>
+                            <td class="f-erbiao">123456789</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="f-container-right">
+                    <div>追溯详情</div>
+                </div>
+            </div>
         </div>
-
     </div>
 
 
