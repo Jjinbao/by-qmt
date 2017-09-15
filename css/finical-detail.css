@@ -103,8 +103,144 @@
     border-right: 1px solid rgba(151,151,151,0.1);
 }
 
+.f-bfinish-pay{
+    float: left;
+    height: 173px;
+    width: 487px;
+    padding-top: 27px;
+    padding-left: 39px;
+    font-size: 16px;
+    border-right: 1px solid rgba(151,151,151,0.1);
+    font-size: 14px;
+    color: #333333;
+}
+
+.f-bfinish-pay .fininsh-money{
+    color: #4A90E2;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.f-bfinish-pay .money-remark{
+    font-size: 12px;
+}
+
+.f-bfinish-pay .pay-long-time{
+    font-size: 12px;
+    color: #999999;
+
+}
+
+.f-bfinish-pay .have-pay{
+    color: #22891D;
+    font-weight: bold;
+}
+
+.f-bfinish-pay .result-pay{
+    color: #F12740;
+    font-weight: bold;
+}
+
 .f-pay span{
     font-size: 22px;
     color: #F12740;
     font-weight: bold;
+}
+
+.pay-channel-choice{
+    margin-top: 54px;
+    border-top:1px dashed #eeeeee;
+    padding-top: 30px;
+    position: relative;
+}
+
+.pay-channel-choice .one-pay-channel{
+    clear: both;
+    height: 49px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    background: url('../images/no-select.png') no-repeat 24px center;
+    -webkit-background-size:16px 15px;
+    -moz-background-size: 16px 15px;
+    -o-background-size: 16px 15px;
+    background-size:16px 15px;
+    padding-left: 83px;
+    line-height: 49px;
+}
+
+.pay-channel-choice .one-pay-channel .channel-icon{
+    margin-top: 8px;
+    width: 33px;
+    height: 33px;
+    background-color: gray;
+    float: left;
+}
+
+.pay-channel-choice .one-pay-channel .channel-name{
+    float: left;
+    margin-left: 12px;
+}
+
+.pay-channel-choice .one-pay-channel .channel-pay-money{
+    float: right;
+}
+
+.pay-channel-choice .one-pay-channel .channel-pay-money span{
+    color: #F12740;
+}
+
+.pay-channel-choice .pay-channel-choiced{
+    border: 1px solid #22891D;
+    background: url('../images/selected.png') no-repeat 24px center;
+    -webkit-background-size:16px 15px;
+    -moz-background-size: 16px 15px;
+    -o-background-size: 16px 15px;
+    background-size:16px 15px;
+}
+
+.pay-channel-choice table{
+    width: 100%;
+    text-align: left;
+}
+.pay-channel-choice table td{
+    height: 30px;
+    font-size: 12px;
+    color: #333333;
+}
+
+.pay-channel-choice .have-not-pay{
+    text-align: right;
+    font-size: 12px;
+    color: #F12740;
+}
+
+.confirm-total{
+    clear: both;
+    background: rgba(34,137,29,0.1);
+    height: 49px;
+    line-height: 49px;
+    padding-left: 50px;
+    font-size: 14px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: #333333;
+    position: relative;
+}
+
+.expect-profit{
+    clear: both;
+    margin-top: 5px;
+    background: rgba(255,66,0,0.1);
+    height: 49px;
+    line-height: 49px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.money-value{
+    float: right;
 }
