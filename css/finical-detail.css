@@ -274,5 +274,69 @@
     font-weight: normal;
     color: #F12740;
     font-size: 12px;
+}
 
+.f-detail-tab{
+    margin-top: 43px;
+    height: 50px;
+}
+
+.f-detail-tab .f-detail-msg{
+    display: block;
+    width: 122px;
+    float: left;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    line-height: 50px;
+    border-top: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+.f-detail-tab .active{
+    border: none;
+    background-color: #22891D;
+    color: #ffffff;
+}
+
+.f-detail-container{
+    border: 1px solid #EEEEEE;
+    min-height: 100px;
+    font-size: 0;
+}
+
+.f-detail-container .f-container-left{
+    width: 243px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    border-right: 1px solid #eeeeee;
+}
+
+.f-detail-container .f-container-right{
+    width: 599px;
+    min-height: 100px;
+    height: 100%;
+    padding: 15px 29px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+.f-detail-container .f-container-left table tr{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.f-detail-container .f-container-left table tr .f-xh{
+    padding-left: 22px;
+    min-width: 90px;
+}
+.f-detail-container .f-container-left table tr .f-erbiao{
+    padding-left: 22px;
+    min-width: 150px;
 }
