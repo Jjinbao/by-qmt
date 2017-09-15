@@ -23,6 +23,7 @@
 // });
 //模态框初始化
 var inst1 = $('[data-remodal-id=modal1]').remodal();
+//解绑银行卡
 var inst2 = $('[data-remodal-id=modal2]').remodal();
 
 $('#loginWord').click(function(e){
@@ -35,4 +36,8 @@ $('.unbind').on('click',function(e){
 
 $('#m-payword').on('click',function(e){
     inst1.open();
+})
+
+$('.cancle-unbind').on('click',function(e){
+    inst2.close();
 })
