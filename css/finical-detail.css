@@ -244,3 +244,35 @@
 .money-value{
     float: right;
 }
+
+.pro-analyse{
+    position: relative;
+}
+
+.pro-analyse img{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 86px;
+    height: 84px;
+}
+
+.f-detial-title{
+    padding-left: 97px;
+    font-weight: bold
+}
+
+.f-detial-info{
+    padding-left: 97px;
+    margin-top: 3px;
+}
+
+.f-surplus{
+    position: absolute;
+    right: 31px;
+    top: 14px;
+    font-weight: normal;
+    color: #F12740;
+    font-size: 12px;
+
+}
