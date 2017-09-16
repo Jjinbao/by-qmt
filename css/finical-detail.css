@@ -115,6 +115,22 @@
     color: #333333;
 }
 
+.f-bfinish-pay .transfer-money{
+    margin-top: 15px;
+}
+
+.f-bfinish-pay .transfer-money input{
+    width: 99px;
+    height: 23px;
+}
+
+.f-aggre-deal{
+    width: 100px;
+    margin:  4px auto;
+    background: url('../images/no-select.png') no-repeat left 4px;
+    padding-left: 20px;
+}
+
 .f-bfinish-pay .fininsh-money{
     color: #4A90E2;
     font-weight: bold;
