@@ -22,6 +22,7 @@ $(document).ready(function(e){
     try{
         $('#Pagination').pagination({
             pageCount: 8,
+            current:3,
             items_per_page:5,
             jump: true,
             callback:function(api){
